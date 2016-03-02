@@ -2752,6 +2752,8 @@
 			}
 
 				header.major p {
+					text-align: left;
+					color: green;
 					font-size: 1em;
 				}
 
