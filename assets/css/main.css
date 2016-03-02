@@ -1699,6 +1699,8 @@
 	}
 
 	p {
+		text-align: left;
+		color: inherit;
 		margin: 0 0 2em 0;
 	}
 
