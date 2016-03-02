@@ -2702,6 +2702,7 @@
 	header p {
 		position: relative;
 		margin: 0 0 1.5em 0;
+		text-align: left;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -2752,8 +2753,6 @@
 			}
 
 				header.major p {
-					text-align: left;
-					color: green;
 					font-size: 1em;
 				}
 
