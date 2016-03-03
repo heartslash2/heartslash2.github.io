@@ -3819,7 +3819,7 @@
 		#header a {
 			color: inherit;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#header strong, #header b {
@@ -3827,7 +3827,7 @@
 		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #000000;
+			color: #ffffff;
 		}
 
 		#header blockquote {
