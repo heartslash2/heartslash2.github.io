@@ -3668,7 +3668,7 @@
 			#header input[type="button"]:hover,
 			#header button:hover,
 			#header .button:hover {
-				background-color: rgba(255, 255, 255, 0.075);
+				background-color: rgba(236, 244, 252, 0.075);
 			}
 
 			#header input[type="submit"]:active,
