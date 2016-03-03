@@ -3676,7 +3676,7 @@
 			#header input[type="button"]:active,
 			#header button:active,
 			#header .button:active {
-				background-color: rgba(255, 255, 255, 0.2);
+				background-color: rgba(236, 244, 252, 0.2);
 			}
 
 			#header input[type="submit"].special,
