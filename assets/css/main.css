@@ -2701,7 +2701,7 @@
 
 	header p { /* This area is for the <p> tag */
 		position: relative;
-		margin: 0.5em 5em 1.5em;
+		margin: 0.5em 10em 1.5em;
 		text-align: left;
 	}
 
