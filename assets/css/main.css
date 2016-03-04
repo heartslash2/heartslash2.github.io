@@ -3860,7 +3860,7 @@
 			}
 			
 		#header p.text {
-			color: rgb(8, 36, 176);
+			color: rgb(8, 36, 176) !important;
 		}
 
 		#header .content {
