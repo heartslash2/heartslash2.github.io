@@ -3858,6 +3858,10 @@
 			#header p br {
 				display: inline;
 			}
+			
+		#header p.text {
+			color: rgb(8, 36, 176);
+		}
 
 		#header .content {
 			-moz-transition: opacity 0.5s ease, -moz-transform 1s ease;
