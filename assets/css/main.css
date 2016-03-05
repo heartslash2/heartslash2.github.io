@@ -221,7 +221,7 @@
 	.button {
 		background-color: blue;
 		color: white;
-		border: none;
+		border: 1px solid blue;
 		padding: 10px 10px;
 		text-align: center;
 		text-decoration: none;
@@ -231,6 +231,7 @@
 		-webkit-transition-duration: 0.4s;
 		transition-duration: 0.4s;
 		border-radius: 6px;
+		float: left;
 	}
 	
 	.button:hover {
