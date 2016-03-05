@@ -85,7 +85,7 @@
 
 	body {
 		color: #999999;
-		background-image: url("images/GuildWars2.jpg");
+		background-color: transparent;
 	}
 
 	html, input, select, textarea {
