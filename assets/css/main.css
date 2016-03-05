@@ -132,9 +132,20 @@
 	}
 
 	p {
-		text-align: left;
 		color: inherit;
 		margin: 0 0 2em 0;
+	}
+	
+	.align-left {
+		text-align: left;
+	}
+
+	.align-center {
+		text-align: center;
+	}
+
+	.align-right {
+		text-align: right;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
