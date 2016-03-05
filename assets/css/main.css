@@ -66,7 +66,7 @@
 	}
 
 	body {
-		background: transparent;
+		background: rgba(255, 255, 255, 0.05);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
