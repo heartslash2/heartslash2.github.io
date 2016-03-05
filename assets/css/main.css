@@ -256,7 +256,7 @@
 /* Footer */
 
 	#footer {
-		background-color: rgba(255, 255, 255, 0.15);
+		background-color: transparent;
 		color: #999999;
 		padding: 4.5em 0 2.5em 0 ;
 		color: #b0b0b0;
@@ -301,6 +301,7 @@
 		}
 
 		#footer .copyright {
+			background-color: rgba(255, 255, 255, 0.15);
 			font-size: 0.8em;
 			text-align: center;
 		}
@@ -331,5 +332,5 @@
 			
 /* Opac */
 	#opac {
-		background-color: rgba(255, 255, 255, 0.15);
+		background-color: transparent;
 	}
