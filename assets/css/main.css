@@ -85,7 +85,7 @@
 
 	body {
 		color: #999999;
-		background-color: transparent;
+		background: transparent;
 	}
 
 	html, input, select, textarea {
