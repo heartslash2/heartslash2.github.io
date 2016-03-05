@@ -240,6 +240,7 @@
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
+		background-repeat: repeat-y;
 		height: 100vh;
 		min-height: 35em;
 		font-size: 1em;
