@@ -79,7 +79,6 @@
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-		
 
 /* Type */
 
@@ -217,6 +216,15 @@
 		position: relative;
 		margin: 0.5em 10em 1.5em;
 	}
+	
+/* System */
+	#system {
+		background-color: transparent;
+		color: #ff0000;
+	}
+		#system p {
+			background-color: rgba(255, 255, 255, 0.15);
+		}
 	
 /* Header */
 	#header {
