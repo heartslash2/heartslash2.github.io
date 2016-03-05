@@ -219,7 +219,7 @@
 	
 /* System */
 	#system {
-		background-color: transparent;
+		background-color: inherit;
 		color: #ff0000;
 	}
 		#system p {
