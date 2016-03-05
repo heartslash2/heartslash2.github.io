@@ -217,6 +217,27 @@
 		margin: 0.5em 10em 1.5em;
 	}
 	
+/* Button */
+	.button {
+		background-color: blue;
+		color: white;
+		border: none;
+		padding: 10px 10px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 1em;
+		-moz-transition-duration: 0.4s;
+		-webkit-transition-duration: 0.4s;
+		transition-duration: 0.4s;
+		border-radius: 6px;
+	}
+	
+	.button:hover {
+		background-color: lightblue;
+		color: black;
+	}
+	
 /* System */
 	#system {
 		background-color: inherit;
