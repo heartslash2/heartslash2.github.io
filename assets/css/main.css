@@ -233,7 +233,10 @@
 		background-size: auto, cover;
 		height: 100vh;
 		min-height: 35em;
+		font-size: 1em;
 	}
 	#header h1 {
 		color: #808080;
+		font-size: 1.3em;
+		line-height: 1.5em;
 	}
