@@ -275,6 +275,10 @@
 		font-size: 1.75em;
 	}
 	
+	#how_to p {
+		padding-top: 0;
+	}
+	
 	#how_to h2 {
 		font-weight: bold;
 		font-size: 2em;
