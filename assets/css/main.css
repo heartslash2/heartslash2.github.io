@@ -244,6 +244,31 @@
 		color: white;
 	}
 	
+	.button1 {
+		background-color: blue;
+		color: white;
+		border: 1px solid blue;
+		padding: 5px 5px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 0.8em;
+		-moz-transition-duration: 0.4s;
+		-webkit-transition-duration: 0.4s;
+		transition-duration: 0.4s;
+		border-radius: 6px;
+	}
+	
+	.button1:hover {
+		background-color: #4c4cff;
+		color: white;
+	}
+	
+	.button1:active {
+		background-color: #5d5dff;
+		color: white;
+	}
+	
 /* System */
 	#system {
 		background-color: inherit;
