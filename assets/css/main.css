@@ -239,7 +239,7 @@
 		color: white;
 	}
 	
-	.button:action {
+	.button:active {
 		background-color: #5d5dff;
 		color: white;
 	}
@@ -247,11 +247,27 @@
 /* System */
 	#system {
 		background-color: inherit;
-		color: #ff0000;
+		color: #df2a0a;
 	}
 		#system p {
 			background-color: rgba(255, 255, 255, 0.15);
 		}
+		
+		#system h2 {
+			color: #e23f22;
+			font-weight: bold;
+		}
+		
+/* Where_why */
+	#where_why {
+		background-color: inherit;
+		color: #df2a0a;
+	}
+	
+	#where_why h2 {
+		color: #e23f22;
+		font-weight: bold;
+	}
 	
 /* Header */
 	#header {
@@ -280,7 +296,7 @@
 		font-size: 1em;
 	}
 	#header h1 {
-			background-color: rgba(255, 255, 255, 0.15);
+			background-color: rgba(255, 255, 255, 0.2);
 			font-size: 3.25em;
 			font-weight: bold;
 			margin-bottom: 0.5em;
@@ -288,7 +304,7 @@
 		}
 
 		#header p {
-			background-color: rgba(255, 255, 255, 0.15);
+			background-color: rgba(255, 255, 255, 0.2);
 			font-size: 1.5em;
 			line-height: 1.35em;
 			margin: 0.5em 5em 0.5em;
