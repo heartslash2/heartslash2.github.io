@@ -235,8 +235,13 @@
 	}
 	
 	.button:hover {
-		background-color: lightblue;
-		color: black;
+		background-color: #4c4cff;
+		color: white;
+	}
+	
+	.button:action {
+		background-color: #5d5dff;
+		color: white;
 	}
 	
 /* System */
