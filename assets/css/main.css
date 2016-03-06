@@ -269,6 +269,18 @@
 		font-weight: bold;
 	}
 	
+/* How_to */
+	#how_to {
+		color: #e10c37;
+		font-size: 1.5em;
+	}
+	
+	#how_to h2 {
+		font-weight: bold;
+		font-size: 2em;
+	}
+	
+	
 /* Header */
 	#header {
 		background-color: transparent;
