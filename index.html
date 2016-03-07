@@ -121,8 +121,25 @@
 					<h2 class="align-center">Characters Graph</h2>
 					<p class="align-left">Enter the API key to add your character data to the graph<br>
 					<input id="key">
-					<button class="button1" onclick="">Enter</button>
+					<button class="button1" onclick="getKey()">Enter</button>
 					</p>
+					<p id="temp"></p>
+					<script>
+					function getKey() {
+						var key;
+						// get the user input
+						key = document.getElementById("key").value;
+						// check if 'valid' key
+						var check = key.split("-");
+						if (check.length==9) {
+							if (check[0].length==8 & check[1].length==4 & check[2].length==4 & check[3].length==4 & check[4].length==20 & check[5].length==4 & 
+							check[6].length==4 & check[7].length==4 & check[8].length==12) {
+								document.getElementById("temp").innerHTML = "Check passed";
+							}
+						}
+					}
+					
+					</script>
 				</header>
 			</section>
 

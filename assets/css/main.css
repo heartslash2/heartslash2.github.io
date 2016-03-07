@@ -302,6 +302,14 @@
 		font-weight: bold;
 	}
 	
+	#where_why a {
+		color: inherit;
+	}
+	
+	#where_why a:hover {
+		color: blue;
+	}
+	
 /* How_to */
 	#how_to {
 		color: #e10c37;
