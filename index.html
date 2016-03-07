@@ -126,15 +126,21 @@
 					<p id="temp"></p>
 					<script>
 					function getKey() {
-						var key;
+						var key, check, url, full, used;
 						// get the user input
 						key = document.getElementById("key").value;
 						// check if 'valid' key
-						var check = key.split("-");
+						check = key.split("-");
 						if (check.length==9) {
 							if (check[0].length==8 & check[1].length==4 & check[2].length==4 & check[3].length==4 & check[4].length==20 & check[5].length==4 & 
 							check[6].length==4 & check[7].length==4 & check[8].length==12) {
 								document.getElementById("temp").innerHTML = "Check passed";
+								url = "https://api.guildwars2.com/v2/characters?page=0&access_token="+key;
+								request(url, function(error, response, body) {
+									if(!error) {
+										document.getElementById("temp").innerHTML = body;
+									}
+								})
 							}
 						}
 					}
