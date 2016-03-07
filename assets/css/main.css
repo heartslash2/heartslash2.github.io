@@ -283,6 +283,14 @@
 			font-weight: bold;
 		}
 		
+		#system a {
+			color: inherit;
+		}
+		
+		#system a:hover {
+			color: blue;
+		}
+		
 /* Where_why */
 	#where_why {
 		background-color: inherit;
