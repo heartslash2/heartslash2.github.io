@@ -327,6 +327,11 @@
 		padding-bottom: 0;
 	}
 	
+/* Key_app */
+	#key_app {
+		color: #ff2700;
+	}
+	
 	
 /* Header */
 	#header {
