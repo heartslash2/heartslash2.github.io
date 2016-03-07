@@ -127,6 +127,7 @@
 					<script>
 					function getKey() {
 						var key, check, url, full, used;
+						var request = require('request');
 						// get the user input
 						key = document.getElementById("key").value;
 						// check if 'valid' key
@@ -136,9 +137,9 @@
 							check[6].length==4 & check[7].length==4 & check[8].length==12) {
 								document.getElementById("temp").innerHTML = "Check passed";
 								url = "https://api.guildwars2.com/v2/characters?page=0&access_token="+key;
-								request(url, function(error, response, body) {
+								request(url, function(error, response, html) {
 									if(!error) {
-										document.getElementById("temp").innerHTML = body;
+										document.getElementById("temp").innerHTML = html;
 									}
 								})
 							}
