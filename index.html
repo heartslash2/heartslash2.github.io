@@ -128,7 +128,8 @@
 					<p id="collective_graph"></p>
 					<script>
 					function getKey() {
-						var key, check, url, full, used;
+						var key, check, url, full, text;
+						text = "";
 						// get the user input
 						key = document.getElementById("key").value;
 						// check if 'valid' key
@@ -144,9 +145,9 @@
 										console.log("Sample of data:", data);
 									}
 									for (i = 0; i < data.length; i++) {
-										used = data[i].name+"\n";
-										document.getElementById("individual_graph").innerHTML = used;
+										text += data[i].name+"<br>";
 									}
+									document.getElementById("individual_graph").innerHTML = text;
 								});
 							}
 						}
