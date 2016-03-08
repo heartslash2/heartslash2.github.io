@@ -124,7 +124,8 @@
 					<button class="button1" onclick="getKey()">Enter</button>
 					</p>
 					<p id="temp"></p><br>
-					<p id="temp2"></p>
+					<p id="individual_graph"></p><br>
+					<p id="collective_graph"></p>
 					<script src="assets/js/FW_GW2.js"></script>
 					<script>
 					function getKey() {
@@ -141,7 +142,7 @@
 								$.ajax(url)
 								.done(function(data) {
 									if (console && console.log) {
-										console.log("Sample of data:",data.slice(0,100));
+										console.log("Sample of data:",data[0]);
 									}
 								});
 							}
