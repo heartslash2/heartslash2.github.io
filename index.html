@@ -137,13 +137,13 @@
 							if (check[0].length==8 & check[1].length==4 & check[2].length==4 & check[3].length==4 & check[4].length==20 & check[5].length==4 & 
 							check[6].length==4 & check[7].length==4 & check[8].length==12) {
 								document.getElementById("temp").innerHTML = "Check passed";
-								var doSuccess = function(data, event) {
-									var result = data;
-								};
-								var doError = function(status, text, data, event) {
-									console.log(status, text, data, event);
-								};
-								document.getElementById("temp2").innerHTML = JSON.stringify(FW_GW2().getCharactersByPage(key, 0, doSuccess, doError));
+								url = "https://api.guildwars2.com/v2/characters?page=0&access_token="+key;
+								$.ajax(url)
+								.done(function(data) {
+									if (console && console.log) {
+										console.log("Sample of data:",data.slice(0,100));
+									}
+								});
 							}
 						}
 					}
