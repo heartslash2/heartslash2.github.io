@@ -143,7 +143,7 @@
 								var doError = function(status, text, data, event) {
 									console.log(status, text, data, event);
 								};
-								document.getElementById("temp2").innerHTML = FW_GW2().getCharactersByPage(key, 0, doSuccess, doError);
+								document.getElementById("temp2").innerHTML = JSON.stringify(FW_GW2().getCharactersByPage(key, 0, doSuccess, doError));
 							}
 						}
 					}
