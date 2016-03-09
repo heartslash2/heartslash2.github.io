@@ -130,6 +130,7 @@
 					<script src="assets/js/plugins/sigma.parsers.json.min.js"></script>
 					<script>
 					function getKey() {
+						document.getElementById("graph").innerHTML = "";
 						var key, check, url, full, text;
 						text = "";
 						// get the user input
@@ -527,7 +528,6 @@
 									},]
 								};
 								var s = new sigma('graph');
-								s.clear();
 								s.graph.read(graph_data);
 								s.labelSizeRatio = 10;
 								s.refresh();
