@@ -157,7 +157,8 @@
 										"label":"Asura",
 										"x":-3,
 										"y":2,
-										"size":1
+										"size":1,
+										"color":"#808080"
 									},
 									{
 										"id":"Sylvari",
@@ -523,6 +524,7 @@
 								};
 								var s = new sigma('graph');
 								s.graph.read(graph_data);
+								s.labelSizeRatio = 3;
 								s.refresh();
 							}
 						}
