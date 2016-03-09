@@ -154,9 +154,12 @@
 										characters[i] = data[i].race+","+data[i].profession;
 									}
 									document.getElementById("collective_graph").innerHTML = text;
-									console.log("characters:", characters);
 								});
 								
+								for ( i = 0; i < characters.length; i++) {
+									characters[i] = characters[i].split(",");
+								}
+								console.log("characters:", characters);
 								var graph_data = {"nodes":
 									[{
 										"id":"Asura",
