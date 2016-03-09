@@ -128,6 +128,7 @@
 					<p id="collective_graph"></p>
 					<script src="assets/js/sigma.min.js"></script>
 					<script src="assets/js/plugins/sigma.parsers.json.min.js"></script>
+					<script src="assets/js/plugins/sigma.layout.forceAtlas2.min.js"></script>
 					<script>
 					function getKey() {
 						document.getElementById("graph").innerHTML = "";
@@ -529,7 +530,7 @@
 								};
 								var s = new sigma('graph');
 								s.graph.read(graph_data);
-								s.labelSizeRatio = 10;
+								s.startForceAtlas2({barnesHutOptimize: false});
 								s.refresh();
 							}
 						}
