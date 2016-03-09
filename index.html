@@ -151,7 +151,7 @@
 									}
 									document.getElementById("collective_graph").innerHTML = text;
 								});
-								localStorage.setItem('base_components', JSON.stringify({"nodes":
+								var graph_data = {"nodes":
 									[{
 										"id":"Asura",
 										"label":"Asura",
@@ -520,8 +520,8 @@
 										"target":"Mesmer",
 										"weight":1
 									},]
-								}));
-								sigma.parsers.json(localStorage.getItem('base_components'), {
+								};
+								sigma.parsers.json(graph_data, {
 									container: 'graph',
 									settings: {
 										defaultNodeColor: '#0000ff'
