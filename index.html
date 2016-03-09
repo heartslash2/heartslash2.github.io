@@ -124,7 +124,7 @@
 					<button class="button1" onclick="getKey()">Enter</button>
 					</p>
 					<p id="temp"></p><br>
-					<p id="graph"></p><br>
+					<div id="graph"></div><br>
 					<p id="collective_graph"></p>
 					<script src="assets/js/sigma.min.js"></script>
 					<script src="assets/js/plugins/sigma.parsers.json.min.js"></script>
@@ -521,12 +521,9 @@
 										"weight":1
 									},]
 								};
-								sigma.parsers.json(graph_data, {
-									container: 'graph',
-									settings: {
-										defaultNodeColor: '#0000ff'
-									}
-								});
+								var s = new sigma('graph');
+								s.graph.read(graph_data);
+								s.refresh();
 							}
 						}
 					}
