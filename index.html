@@ -158,35 +158,39 @@
 										"x":-3,
 										"y":2,
 										"size":1,
-										"color":"#808080"
+										"color":"#800080"
 									},
 									{
 										"id":"Sylvari",
 										"label":"Sylvari",
 										"x":0,
 										"y":3,
-										"size":1
+										"size":1,
+										"color":"#008000"
 									},
 									{
 										"id":"Norn",
 										"label":"Norn",
 										"x":3,
 										"y":2,
-										"size":1
+										"size":1,
+										"color":"#0000ff"
 									},
 									{
 										"id":"Human",
 										"label":"Human",
 										"x":2,
 										"y":-3,
-										"size":1
+										"size":1,
+										"color":"#ffa500"
 									},
 									{
 										"id":"Charr",
 										"label":"Charr",
 										"x":-2,
 										"y":-3,
-										"size":1
+										"size":1,
+										"color":"ff0000"
 									},
 									{
 										"id":"Warrior",
@@ -524,7 +528,8 @@
 								};
 								var s = new sigma('graph');
 								s.graph.read(graph_data);
-								s.labelSizeRatio = 3;
+								s.labelSizeRatio = 10;
+								s.defaultEdgeColor = "#000000";
 								s.refresh();
 							}
 						}
