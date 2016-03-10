@@ -132,8 +132,9 @@
 					<script>
 					function getKey() {
 						document.getElementById("graph").innerHTML = "";
-						var key, check, url, full, text, characters;
+						var key, check, url, full, text, characters, character;
 						characters = [];
+						character = [][];
 						text = "";
 						// get the user input
 						key = document.getElementById("key").value;
@@ -156,8 +157,8 @@
 									document.getElementById("collective_graph").innerHTML = text;
 								});
 								
-								for ( i = 0; i < characters.length; i++) {
-									characters[i] = characters[i].split(",");
+								for (i = 0; i < characters.length; i++) {
+									character[i] = characters[i].split(",");
 								}
 								console.log("characters:", characters);
 								var graph_data = {"nodes":
