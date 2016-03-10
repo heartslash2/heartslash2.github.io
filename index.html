@@ -156,11 +156,11 @@
 									}
 									document.getElementById("collective_graph").innerHTML = text;
 								});
-								
+								console.log(characters.length);
 								for (i = 0; i < characters.length; i++) {
 									character[i] = characters[i].split(",");
 								}
-								console.log("characters:", characters);
+								console.log("characters:", characters[0]);
 								var graph_data = {"nodes":
 									[{
 										"id":"Asura",
